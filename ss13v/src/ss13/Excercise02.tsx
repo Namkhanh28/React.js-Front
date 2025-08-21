@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import  { Component } from 'react';
 interface state{
     id:number;
     fullname: string;
     date: Date;
     address: string;
 }
-export default class Excercise02 extends Component<object, state> {
+export default class Exercise02 extends Component<object, state> {
     constructor(props: object) {
         super(props);
         this.state = {
