@@ -27,11 +27,11 @@ export default class Btap4 extends Component<object, Slider> {
         <form>
           <p>Tiến độ hoàn thành: {this.state.progress}%</p>
           <input
-            type="range"
-            name="progress"
-            id="progress"
-            min="0"
-            max="100"
+            type="range"//type range la thanh keo 
+            name="progress"//name cua input
+            id="progress"//id cua input
+            min="0" //gia tri nho nhat
+            max="100"//gia tri lon nhat
             onChange={this.getHandleChange}
           />
           <br />
