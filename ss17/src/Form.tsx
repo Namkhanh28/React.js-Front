@@ -5,7 +5,6 @@ export default function Form() {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(event.target.value);
   };
-
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <input
