@@ -1,14 +1,15 @@
 import './App.css'
-import RenderCounter from './ss18/RenderCounter'
-// import RandomStatement from './ss18/RandomStatement'
-// import ShoppingCart from './ss18/ShoppingCart'
+// import InputLength from './ss19/InputLength'
+import UserProfile from './ss19/UserProfile'
+import Welcome from './ss19/Welcome'
+
 
 function App() {
 return (
   <>
-    {/* <ShoppingCart /> */}
-    {/* <RandomStatement /> */}
-    <RenderCounter />
+    {/* <InputLength/> */}
+    {/* <UserProfile /> */}
+    <Welcome/>
   </>
 )
 }
