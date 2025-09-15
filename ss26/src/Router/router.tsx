@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import ProductDetail from "../components/BT1/ProductDetail";
-import Student from "../components/BT2/Student";
-import Students from "../components/BT3/Student";
-import SearchParams from "../components/BT4/BT4";
-import Login from "../components/BT5/Login";
-import Account from "../components/BT5/Account";
-import Home from "../components/BT5/Home";
-import PrivateRouter from "../components/BT5/PrivateRouter";
+import ProductDetail from "";
+import Student from "";
+import Students from "";
+import SearchParams from "";
+import Login from "";
+import Account from "";
+import Home from "";
+import PrivateRouter from "";
 
 const router = createBrowserRouter([
     {
